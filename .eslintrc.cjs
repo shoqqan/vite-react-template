@@ -10,6 +10,7 @@ module.exports = {
     ignorePatterns: ['dist'],
     parser: '@typescript-eslint/parser',
     rules: {
+        "import/order":"off",
         "import/no-extraneous-dependencies":"off",
         "@typescript-eslint/no-var-requires": "off",
         "react/display-name": "off",
